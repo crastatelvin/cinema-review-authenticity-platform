@@ -61,13 +61,13 @@ The system combines:
 ## 💻 Application Preview
 <br/>
 
-<img width="1365" alt="Home" src="./docs/screenshots/home.png" />
+<img width="1365" alt="Home" src="./docs/screenshots/home-live.png" />
 <br/>
 <br/>
-<img width="1365" alt="Analyze Job 5" src="./docs/screenshots/analyze-job-5.png" />
+<img width="1365" alt="Analyze Job 5" src="./docs/screenshots/analyze-live.png" />
 <br/>
 <br/>
-<img width="1365" alt="Chat" src="./docs/screenshots/chat.png" />
+<img width="1365" alt="Chat" src="./docs/screenshots/chat-live.png" />
 <br/>
 
 ---
