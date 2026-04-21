@@ -1,4 +1,5 @@
 from fastapi import Depends, FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from prometheus_fastapi_instrumentator import Instrumentator
 import sentry_sdk
 from slowapi import Limiter
@@ -17,6 +18,15 @@ sentry_sdk.init(dsn=None, traces_sample_rate=0.0)
 app = FastAPI(title=settings.app_name)
 limiter = Limiter(key_func=get_remote_address)
 app.state.limiter = limiter
+
+origins = [x.strip() for x in settings.allow_cors_origins.split(",") if x.strip()]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app.include_router(health_router)
 app.include_router(analyze_router, dependencies=[Depends(require_api_key)])
