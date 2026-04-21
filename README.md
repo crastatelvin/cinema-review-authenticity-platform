@@ -99,7 +99,7 @@ The system combines:
 │                      FastAPI Backend                         │
 │  /api/analyze      create + fetch analysis jobs              │
 │  /api/chat         stream explanations from analysis         │
-│  /health           readiness                                  │
+│  /health           readiness                                 │
 └─────────────────┬────────────────────────────────────────────┘
                   │ enqueue
          ┌────────▼────────┐
@@ -109,7 +109,7 @@ The system combines:
                   │
 ┌─────────────────▼────────────────────────────────────────────┐
 │                   Analysis Pipeline                          │
-│  Scrapers/APIs -> ML + Heuristics -> Aggregator -> Report   │
+│  Scrapers/APIs -> ML + Heuristics -> Aggregator -> Report    │
 └─────────────────┬────────────────────────────────────────────┘
                   │
          ┌────────▼────────┐
