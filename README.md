@@ -278,8 +278,8 @@ npm run build
 
 ## 📜 License
 
-This repository currently does not include a license file.
-Add `LICENSE` (for example MIT) if you want open-source reuse terms.
+Licensed under the **MIT License**.
+See [`LICENSE`](LICENSE) for full terms.
 
 ---
 
