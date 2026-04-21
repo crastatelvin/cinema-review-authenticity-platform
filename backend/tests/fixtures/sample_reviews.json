@@ -1,0 +1,5 @@
+[
+  {"platform": "tmdb", "text": "Great movie", "rating": 8},
+  {"platform": "reddit", "text": "Great movie", "rating": 8},
+  {"platform": "reddit", "text": "Worst movie ever", "rating": 1}
+]
