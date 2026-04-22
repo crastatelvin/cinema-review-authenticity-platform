@@ -276,21 +276,6 @@ npm run build
 
 ---
 
-## 📜 License
-
-Licensed under the **MIT License**.
-See [`LICENSE`](LICENSE) for full terms.
-
----
-
-<div align="center">
-
-Built by [crastatelvin](https://github.com/crastatelvin)
-
-⭐ Star this repository if it helped you.
-
-</div>
-
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](./LICENSE).
